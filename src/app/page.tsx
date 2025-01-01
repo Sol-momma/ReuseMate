@@ -1,4 +1,5 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper'
+import ProductReel from '@/components/ProductReel'
 import {
   Button,
   buttonVariants,
@@ -44,7 +45,7 @@ export default function Home() {
             .
           </h1>
           <p className='mt-6 text-lg max-w-prose text-muted-foreground'>
-            Welcome to ReuseMate. Every asset on our
+            Welcome to DigitalHippo. Every asset on our
             platform is verified by our team to ensure our
             highest quality standards.
           </p>
@@ -59,12 +60,12 @@ export default function Home() {
             </Button>
           </div>
         </div>
-{/* 
+
         <ProductReel
           query={{ sort: 'desc', limit: 4 }}
           href='/products?sort=recent'
           title='Brand new'
-        /> */}
+        />
       </MaxWidthWrapper>
 
       <section className='border-t border-gray-200 bg-gray-50'>
